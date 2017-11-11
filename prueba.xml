@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<biblioteca>
+	<libro>
+		<titulo anyo="1">asdf</titulo>
+		<autor>
+			<nombre>Autor1</nombre>
+			<nombre>Autor2</nombre>
+		</autor>
+		<editor>asdf</editor>
+		<paginas>1</paginas>
+	</libro>
+</biblioteca>
