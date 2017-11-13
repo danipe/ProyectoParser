@@ -177,6 +177,7 @@ public class Ventana {
 		
 		textFieldAnyo = new JTextField();
 		textFieldAnyo.setBounds(72, 248, 86, 20);
+		textFieldAnyo.setBorder(null);
 		frame.getContentPane().add(textFieldAnyo);
 		textFieldAnyo.setColumns(10);
 	}

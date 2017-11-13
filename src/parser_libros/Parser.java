@@ -42,6 +42,7 @@ public class Parser {
 
 	public void parseDocument() {
 		Element docEle = dom.getDocumentElement();
+		System.out.println(docEle.getChildNodes().getLength());
 		NodeList nl = docEle.getElementsByTagName("libro");
 		if (nl != null && nl.getLength() > 0) {
 			for (int i = 0; i < nl.getLength(); i++) {
